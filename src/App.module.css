@@ -1,0 +1,15 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  font-family: system-ui, sans-serif;
+  padding: 2rem;
+}

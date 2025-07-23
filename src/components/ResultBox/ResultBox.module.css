@@ -1,0 +1,38 @@
+.result {
+    margin-top: 1rem;
+    max-width: 400px;
+    background-color: #fff;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.resultTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resultTable th,
+.resultTable td {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.resultTable th {
+    color: #2563eb;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 130px;
+    vertical-align: top;
+}
+
+.resultTable tr:last-child td {
+    border-bottom: none;
+}
